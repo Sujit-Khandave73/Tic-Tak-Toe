@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: #a2d2ff;
+}
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px ;
+    
+}
+
+.boxes{
+    height: 60vmin;
+    width: 60vmin;
+ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 15px;
+    border: none;
+    background-color: #778da9;
+    font-size: 4rem;
+}
+
+.winning{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #14213d;
+
+}
+
+.new-game{
+    height: 2rem;
+    width: 8rem;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    
+    margin-top: 25px;
+}
+
+.reset-btn{
+    width: 8rem;
+    height: 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.reset-btn1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 20vmin;
+}
+
+.hide{
+    display: none;
+}
